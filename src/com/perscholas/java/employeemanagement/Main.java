@@ -1,12 +1,13 @@
-//import java.util.Objects;
-//
-//public class Main {
-//    public static void main(String[] args) {
-//
-//        Employee employee = new Employee();
-//        employee.inputEmployee();
-//
-//        //Task 1: Employee objects using parameterized constructor.
+package com.perscholas.java.employeemanagement;
+import java.util.Objects;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Employee employee = new Employee();
+        employee.inputEmployee();
+
+        //Task 1: Employee objects using parameterized constructor.
 //        Employee emp1 = new Employee("Kavitha","Mynala","CFO",150.15);
 //        Employee emp2 = new Employee("Larena","Hanna","RND",250.99);
 //        Employee emp3 = new Employee("Touyer","Lee","Computer Analyst",59.75);
@@ -42,6 +43,6 @@
 //
 //        System.out.println("\n******************************************************************");
 //        System.out.println("******************************************************************");
-////        System.out.println("******************************************************************");
-//    }
-//}
+//        System.out.println("******************************************************************");
+    }
+}

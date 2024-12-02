@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eba3559-da70-4376-a48a-46e215247646" name="Changes" comment="First Commit for this lab.">
+    <list default="true" id="3eba3559-da70-4376-a48a-46e215247646" name="Changes" comment="Final draft.">
+      <change afterPath="$PROJECT_DIR$/src/HourlyEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/HourlyEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/SalaryEmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.com.perscholas.java.employeemanagement.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -60,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.perscholas.java.employeemanagement.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="EmployeeMGTProject" />
@@ -68,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.perscholas.java.employeemanagement.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.perscholas.java.employeemanagement.Main" />
+      <module name="EmployeeMGTProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perscholas.java.employeemanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.perscholas.java.employeemanagement.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -91,7 +112,9 @@
       <option name="presentableId" value="Default" />
       <updated>1732650586468</updated>
       <workItem from="1732650587582" duration="4183000" />
-      <workItem from="1732655314853" duration="992000" />
+      <workItem from="1732655314853" duration="1110000" />
+      <workItem from="1732735469706" duration="13000" />
+      <workItem from="1733164505758" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit for this lab.">
       <option name="closed" value="true" />
@@ -101,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732654017499</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final draft.">
+      <option name="closed" value="true" />
+      <created>1732656344275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732656344275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit for this lab." />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit for this lab." />
+    <MESSAGE value="Final draft." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final draft." />
   </component>
 </project>
