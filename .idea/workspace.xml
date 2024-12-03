@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eba3559-da70-4376-a48a-46e215247646" name="Changes" comment="Final draft.">
-      <change afterPath="$PROJECT_DIR$/src/HourlyEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/HourlyEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/SalaryEmp.java" afterDir="false" />
+    <list default="true" id="3eba3559-da70-4376-a48a-46e215247646" name="Changes" comment="ADDED EMPLOYEE INPUT METHOD">
+      <change afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/CommissionedEmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/perscholas/java/employeemanagement/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.com.perscholas.java.employeemanagement.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Ial-r/IdeaProjects/EmployeeMGTProject/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.perscholas.java.employeemanagement.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ial-r/IdeaProjects/EmployeeMGTProject/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.com.perscholas.java.employeemanagement.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -114,7 +110,8 @@
       <workItem from="1732650587582" duration="4183000" />
       <workItem from="1732655314853" duration="1110000" />
       <workItem from="1732735469706" duration="13000" />
-      <workItem from="1733164505758" duration="2274000" />
+      <workItem from="1733164505758" duration="5636000" />
+      <workItem from="1733236933968" duration="4228000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit for this lab.">
       <option name="closed" value="true" />
@@ -132,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732656344275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ADDED EMPLOYEE INPUT METHOD">
+      <option name="closed" value="true" />
+      <created>1733166828147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733166828147</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit for this lab." />
     <MESSAGE value="Final draft." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final draft." />
+    <MESSAGE value="ADDED EMPLOYEE INPUT METHOD" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED EMPLOYEE INPUT METHOD" />
   </component>
 </project>

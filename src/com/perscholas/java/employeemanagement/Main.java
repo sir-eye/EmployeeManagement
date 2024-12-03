@@ -4,6 +4,10 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("\n******************************************************************");
+        System.out.println("*****************Employee Management Project**********************");
+        System.out.println("******************************************************************\n");
+
         Employee employee = new Employee();
         employee.inputEmployee();
 
@@ -14,9 +18,7 @@ public class Main {
 //        Employee emp4 = new Employee("Jordan","Nkina","Software Engineer",95.76);
 //        Employee emp5 = new Employee("Daniel", "Noa", "COO", 150.23);
 //
-//        System.out.println("\n******************************************************************");
-//        System.out.println("*****************Employee Management Project**********************");
-//        System.out.println("******************************************************************\n");
+
 //        System.out.println("\nTask 2: Calculate and display weekly salaries\n");
 //        System.out.println("Weekly salary of " + emp1.getTitle() + " " + emp1.getFirstName() + " is $" + emp1.calculateWeeklySalary());
 //        System.out.println("Weekly salary of " + emp2.getTitle() + " " + emp2.getFirstName() + " is $" + emp2.calculateWeeklySalary());
@@ -41,8 +43,8 @@ public class Main {
 //        System.out.println("emp5 equals emp1? " + emp5.equals(emp1));
 //        System.out.println("\n");
 //
-//        System.out.println("\n******************************************************************");
-//        System.out.println("******************************************************************");
-//        System.out.println("******************************************************************");
+        System.out.println("\n******************************************************************");
+        System.out.println("******************************************************************");
+        System.out.println("******************************************************************");
     }
 }

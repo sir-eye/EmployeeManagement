@@ -9,7 +9,8 @@ public class Employee {
     protected String title;
     protected double payRate;
 
-    public Employee() {}
+    public Employee() {
+    }
 
 
     public Employee(String firstName, String lastName, String title, double payRate) {
@@ -25,23 +26,43 @@ public class Employee {
     }
 
 
-    public String getFirstName() { return firstName; }
-    public void setFirstName(String firstName) { this.firstName = firstName; }
+    public String getFirstName() {
+        return firstName;
+    }
 
-    public String getLastName() { return lastName; }
-    public void setLastName(String lastName) { this.lastName = lastName; }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-    public String getTitle() { return title; }
-    public void setTitle(String title) { this.title = title; }
+    public String getLastName() {
+        return lastName;
+    }
 
-    public double getPayRate() { return payRate; }
-    public void setPayRate(double payRate) { this.payRate = payRate; }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public double getPayRate() {
+        return payRate;
+    }
+
+    public void setPayRate(double payRate) {
+        this.payRate = payRate;
+    }
 
 
     public void inputEmployee() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter employee type (salaried/hourly): ");
+        System.out.print("Enter employee type (salaried/hourly/commissioned): ");
         String type = scanner.nextLine().toLowerCase();
 
         System.out.print("Enter first name: ");
@@ -67,31 +88,44 @@ public class Employee {
 
             HourlyEmp hourlyEmployee = new HourlyEmp(firstName, lastName, title, payRate, hoursWorked);
             hourlyEmployee.display();
+        } else if (type.equals("commissioned")) {
+            System.out.print("Enter hourly rate: ");
+            this.payRate = scanner.nextDouble();
+
+            System.out.print("Enter hours worked: ");
+            double hoursWorked = scanner.nextDouble();
+
+            System.out.print("Enter total sales: ");
+            double totalSales = scanner.nextDouble();
+
+            CommissionedEmp commissionedEmployee = new CommissionedEmp(firstName, lastName, title, payRate, hoursWorked, totalSales);
+            commissionedEmployee.display();
         } else {
             System.out.println("Invalid employee type entered.");
         }
     }
 
 
-    @Override
-    public String toString() {
-        return "Employee: " + firstName + " " + lastName + ", Title: " + title;
-    }
+        @Override
+        public String toString () {
+            return "Employee: " + firstName + " " + lastName + ", Title: " + title;
+        }
 
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Employee employee = (Employee) obj;
-        return Double.compare(employee.payRate, payRate) == 0 &&
-                firstName.equals(employee.firstName) &&
-                lastName.equals(employee.lastName) &&
-                title.equals(employee.title);
-    }
+        @Override
+        public boolean equals (Object obj){
+            if (this == obj) return true;
+            if (obj == null || getClass() != obj.getClass()) return false;
+            Employee employee = (Employee) obj;
+            return Double.compare(employee.payRate, payRate) == 0 &&
+                    firstName.equals(employee.firstName) &&
+                    lastName.equals(employee.lastName) &&
+                    title.equals(employee.title);
+        }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(firstName, lastName, title, payRate);
-    }
+        @Override
+        public int hashCode () {
+            return Objects.hash(firstName, lastName, title, payRate);
+        }
+
 }
